@@ -9,14 +9,14 @@ Sequence data of arbitrary length can be processed because of LSTM which is free
 There is no need for a detector or cropping technique to find each character one by one.
 You can use CRNN for OCR, license plate recognition, text recognition, and so on. It depends on what data you are training
 
-###Convolutional Layer
+## Convolutional Layer
 
 Extracts features through CNN Layer (VGGNet, ResNet ...).
 
-###Recurrent Layer
+## Recurrent Layer
 
 Splits the features into a certain size and inserts them into the input of the Bidirectional LSTM or GRU.
 
-###Transcription Layer
+## Transcription Layer
 
 Conversion of Feature-specific predictions to Label using CTC (Connectionist Temporal Classification).
